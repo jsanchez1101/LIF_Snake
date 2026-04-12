@@ -55,7 +55,3 @@ python snake_game.py
 # Run the LIF neuron demo (plots voltage over time)
 python lif_neuron.py
 ```
-
-## Built Without AI Code Assistance
-
-This project is being developed without Copilot or AI code generation tools to ensure deep understanding of the underlying mechanics.
