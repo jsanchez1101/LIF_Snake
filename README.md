@@ -1,4 +1,4 @@
-Biologically-Inspired Neural Controller for Snake
+#Biologically-Inspired Neural Controller for Snake
 A from-scratch implementation of a spiking neural network (SNN) using leaky integrate-and-fire (LIF) neurons, being built to control a snake game agent's decision-making in Python/Pygame.
 Status: In Progress
 What This Is
