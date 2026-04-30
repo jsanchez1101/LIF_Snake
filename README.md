@@ -16,6 +16,14 @@ The goal is to explore what a neuroscience-based learning model could look like 
 - **LIF neuron model** — a single neuron class implementing voltage accumulation, threshold firing, post-fire reset, membrane leak, and a refractory (cooldown) period.
 - **Next up** — synaptic connections between neurons to form a network that takes game state as input and outputs movement decisions.
 
+## Demo
+
+![LIF network animation](2NeuronGif.gif)
+
+Two LIF neurons connected by a synapse. Top trace fires from constant input; bottom trace receives current pulses from the first whenever it fires.
+
+
+
 ## Project Structure
 
 ```
