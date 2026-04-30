@@ -21,7 +21,7 @@ The goal is to explore what a neuroscience-based learning model could look like 
 
 ![LIF network animation](2NeuronGif.gif)
 
-Two LIF neurons connected by a synapse. Top trace fires from constant input; bottom trace receives current pulses from the first whenever it fires.
+Two LIF neurons (for now) connected by a synapse. Top trace fires from constant input; bottom trace receives current pulses from the first whenever it fires.
 
 
 
