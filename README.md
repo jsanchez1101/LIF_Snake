@@ -13,8 +13,9 @@ The goal is to explore what a neuroscience-based learning model could look like 
 ## Current Progress
 
 - **Snake game environment** — a complete Pygame snake game with grid-based movement, collision detection, food spawning, and score tracking.
-- **LIF neuron model** — a single neuron class implementing voltage accumulation, threshold firing, post-fire reset, membrane leak, and a refractory (cooldown) period.
-- **Next up** — synaptic connections between neurons to form a network that takes game state as input and outputs movement decisions.
+- **Synaptic connections** — a synapse class that wires two neurons together. When the source neuron fires, current is delivered to the target neuron based on a weight parameter (positive for excitatory, negative for inhibitory).
+- **Live visualization** — real-time matplotlib animation showing voltage traces of connected neurons, with an interactive stop button.
+- **Next up** — small recurrent circuit (3-5 neurons), then sensory layer to translate game state into input currents.
 
 ## Demo
 
